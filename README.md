@@ -8,13 +8,16 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
   &nbsp;&nbsp;
     <img src="./assets/Alogo.png" alt="Anber Logo" height="32" />
   &nbsp;&nbsp;
-  <img src="./assets/mbh.png" alt="Made by Human" height="24" />
+  <img src="./assets/mbh.png" alt="Made by Human" height="32" />
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Made%20in-Egypt-green?style=flat-square" alt="Made in Egypt" height="24" />
+  <img src="https://img.shields.io/badge/Made%20in-Egypt-green?style=flat-square" alt="Made in Egypt" height="32" />
 </div>
     &nbsp;&nbsp;
 
-  [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+  <div align="center">
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="CC BY-NC 4.0"></a>
+</div>
+
 </div>
 
 > **Note on AI Usage:** AI is being used in this project to brainstorm, explain and help debug. But it's not used to generate any part of the project that needs creativity, design, or building. And it's not used for more than 10% of the total project work, which counts as MADE BY HUMAN .
@@ -61,5 +64,5 @@ Pin definitions and driver logic are set up in `src/config.h`.
 ### Flashing the Code
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/ecorover.git](https://github.com/your-username/ecorover.git)
+   git clone https://github.com/muhamedanber/EcoRover.git
    cd ecorover
