@@ -4,9 +4,9 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 ![EcoRover Hero](./assets/ecorover-hero.png)
 
 <div align="center">
-  <img src="./assets/logo.png" alt="EcoRover Logo" height="64" />
+  <img src="./assets/logo.png" alt="EcoRover Logo" height="45" />
   &nbsp;&nbsp;
-    <img src="./assets/ALogo.png" alt="Anber Logo" height="32" />
+    <img src="./assets/ALogo.png" alt="Anber Logo" height="45" />
   &nbsp;&nbsp;
   <img src="./assets/mbh.png" alt="Made by Human" height="32" />
   &nbsp;&nbsp;
