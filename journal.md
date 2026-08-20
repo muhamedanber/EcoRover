@@ -79,4 +79,4 @@ Now it's time to actually get the funding sorted and get my hands on the physica
 Today I worked on this GitHub repo to make it presentable.
 
 ### Aug 20th, 2026
-Today I'm going to open a USD account so I can receive the funding and start building it IRL. Also spending time today updating those faulty schematics from the first Fritzing run so everything is clean and ready.
+Today I'm going to open a USD account so I can receive the funding and start building it IRL. Also spending time today updating those faulty schematics from the first Fritzing run so everything is clean and ready. and maybe check the post office on my way cuz my stickers are stuck there lol.
