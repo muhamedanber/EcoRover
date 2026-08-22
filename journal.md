@@ -66,7 +66,7 @@ On the hardware side, I started modeling the electronics in Fritzing. Even thoug
 
 I also finalized the Bill of Materials (BOM) and did some price comparisons across different stores. To keep things safe, I added a few crucial safety measures like an inline fuse and a rocker switch so nothing accidentally shorts out or catches fire.
 
-Speaking of not blowing things up, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect.
+Speaking of not blowing things up, I reached out to a fellow engineer, Mustafa Qasid (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect.
 
 Now it's time to actually get the funding sorted and get my hands on the physical parts...
 
