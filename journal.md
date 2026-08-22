@@ -80,3 +80,6 @@ Today I worked on this GitHub repo to make it presentable.
 
 ### Aug 20th, 2026
 Today I'm going to open a USD account so I can receive the funding and start building it IRL. Also spending time today updating those faulty schematics from the first Fritzing run so everything is clean and ready. and maybe check the post office on my way cuz my stickers are stuck there lol.
+
+### Aug 22nd, 2026
+Alright so the post office told me to fudge of and they don't have my stuff. and today i applied for funding which didn't ask for a bank account yet so idk why i didn't do it earlier, I'll work again on the electronics to make it more logical and add the safty messures i wanted to add.
