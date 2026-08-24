@@ -55,6 +55,14 @@ As for the video, I decided not to script it word for word anymore, so I’m jus
 
 ---
 
+## 📌 Daily Log Updates
+
+### Jul 18th, 2026
+Today I got this weird notification saying that I can't ship my project through stardance and I've to do it through outpost which got me confused cuz outpost is already over. i asked and they sent me a migration to outpost file only for my surprise that the file has been taken down, I'm really confused and A LOT others on slack but I wont stop the project's pace so I'm gonna continue using stardance to log hours untill they clearify more.
+
+
+---
+
 ## Devlog #3: Pivot, Wiring Struggles, and Learning the Hard Way
 – From Aug 13th to Aug 18th 2026 –
 
@@ -75,6 +83,9 @@ Now it's time to actually get the funding sorted and get my hands on the physica
 
 ## 📌 Daily Log Updates
 
+### Jul 31st, 2026
+Today I got another notification saying they've resolved the hardwear shiping through stardance and i can continue using it to ship and fund my project. also they've shifted there timelapsing to Laps which is a seprate platform that connects to hackatime and lookout instead of the old built-in one they were using.
+
 ### Aug 18th, 2026
 Today I worked on this GitHub repo to make it presentable.
 
@@ -82,4 +93,7 @@ Today I worked on this GitHub repo to make it presentable.
 Today I'm going to open a USD account so I can receive the funding and start building it IRL. Also spending time today updating those faulty schematics from the first Fritzing run so everything is clean and ready. and maybe check the post office on my way cuz my stickers are stuck there lol.
 
 ### Aug 22nd, 2026
-Alright so the post office told me to fudge of and they don't have my stuff. and today i applied for funding which didn't ask for a bank account yet so idk why i didn't do it earlier, I'll work again on the electronics to make it more logical and add the safty messures i wanted to add.
+Alright so the post office told me to fudge of and they don't have my stuff so it's gone. and today i applied for funding which didn't ask for a bank account yet so idk why i didn't do it earlier, I'll work again on the electronics to make it more logical and add the safty messures i wanted to add.
+
+### Aug 24th, 2026
+Today I recived my card and my USD bank account got activated, only for me to find out that I don't need one and the fund is a card grant 🤡. Also the guy who's handling the grants i heard he's out of office but i'm supposed to get it in a week. but that teaches me that i really need to stop making asumption and actully check the process of everything before I take any actions. tbh my fire started diming, like it got streatched soooo long that lol i got bored. but inshallah it will be finished by the end of next week -I hope-. Also i'm gonna reach out to verynile which is is an Egyptian social initiative that cleans plastic waste from the Nile River using specialized boats and volunteer events. The project pays local fishermen to collect trash and employs local women to upcycle the plastic into new products. Through these cleaning and recycling efforts, they protect the environment while supporting locals economically -Espicially women-, and they have a really cool CNC machine that engraves on the plastic they produce which I want them to create the plate that will have my logo and the project's and Made In Egypt emblem on so I can attatch to the rover.
