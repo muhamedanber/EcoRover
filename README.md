@@ -35,6 +35,16 @@ Since EcoRover is an embedded hardware project, you can explore the complete sys
 
 ---
 
+## 🎯 Project Goals
+
+1. **Support Youth Led Egyptian Projects:** Showcasing local innovation and proving what young engineers can build from the ground up.
+2. **Drive Global & Local Sustainability:** Aligning with UN Sustainable Development Goals (**SDGs 2, 8, 9, 11, 12, and 13**).
+3. **Foster Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
+4. **Empower Human Intelligence:** Using AI strictly as a productivity tool rather than a creative producer. this project was built with **less than 10% AI assistance**.
+5. **Protect the Planet:** Diverting organic leftovers and recyclables away from landfills to lower CO2 emissions and combat environmental waste.
+
+---
+
 ## 🚀 Key Features
 
 * **Dignity-Preserving Food Sharing:** Features an integrated, temperature-controlled compartment designed for food court leftovers so anyone in need can take meals without asking.
