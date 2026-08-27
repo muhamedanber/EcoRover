@@ -26,53 +26,29 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 ---
 
-## ⚡ Quick Start
-Since EcoRover is an embedded hardware project, you can explore the complete system architecture, hardware schematics, and project progression directly through our documentation:
+## 1sttt Quick Start
+Since EcoRover is an embedded hardware project, you can explore the complete system architecture, hardware schematics, and project progression directly through the documentation:
 
 1. **View the CAD & Wiring Schematics:** Check out the `/CAD and structure` and `/Electronics` directory for Fusion 360 exports and Fritzing circuit diagrams.
-2. **Explore the Codebase:** Navigate to `/src` for the Arduino Mega 2560 control scripts.
-3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete technical devlogs and progress time-lapses.
+2. **soon**
+3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete devlogs and my thoughts on everything <3.
 
 ---
 
-## 🎯 Project Goals
+## 2nddd Project Goals
 
-1. **Support Youth Led Egyptian Projects:** Showcasing local innovation and proving what young engineers can build from the ground up.
+1. **Support Youth Led Egyptian Projects:** Proving what young egyptian engineers can build from the ground up.
 2. **Drive Global & Local Sustainability:** Aligning with UN Sustainable Development Goals (**SDGs 2, 8, 9, 11, 12, and 13**).
-3. **Foster Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
+3. **Developing Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
 4. **Empower Human Intelligence:** Using AI strictly as a productivity tool rather than a creative producer. this project was built with **less than 10% AI assistance**.
 5. **Protect the Planet:** Diverting organic leftovers and recyclables away from landfills to lower CO2 emissions and combat environmental waste.
 
 ---
 
-## 🚀 Key Features
+## 3rddd Key Features
 
 * **Dignity-Preserving Food Sharing:** Features an integrated, temperature-controlled compartment designed for food court leftovers so anyone in need can take meals without asking.
 * **Smart Autonomous Navigation:** Uses 8x HC-SR04 ultrasonic sensors mapped to North, South, East, and West for full 360° obstacle avoidance in crowded environments.
 * **Thermoelectric Cooling:** Houses an insulated storage area powered by a TEC1-12706 Peltier cooler driven via a 12V relay module to keep food fresh.
 * **4-Way Waste Sorting:** Integrates a multi-hole trash intake system for easy recycling categorization.
 * **Embedded Safety & Power Management:** Equipped with an inline fuse protection circuit and a master hardware rocker switch for instant power isolation, along with multiple access panels for maintenance and latches in case of an emergency -god forbid-.
-
----
-
-## 💻 Local Setup & Development (Soon)
-
-To compile and inspect the code or view hardware diagrams locally, ensure you have the following setup:
-
-### Prerequisites
-* **Arduino IDE:** v2.x or later
-* **Microcontroller Board Package:** Arduino AVR Boards
-* **CAD / Circuit Software (Optional):** Autodesk Fusion 360 & Fritzing
-
-### Required Libraries
-* `HCSR04` (Ultrasonic sensor library)
-* `L298N` (Motor driver control library)
-
-### Environment & Configuration
-Pin definitions and driver logic are set up in `src/config.h`. 
-
-### Flashing the Code
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/muhamedanber/EcoRover.git
-   cd ecorover
