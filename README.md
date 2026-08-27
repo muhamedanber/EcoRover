@@ -32,18 +32,17 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 Since EcoRover is an embedded hardware project, you can explore the complete system architecture, hardware schematics, and project progression directly through the documentation:
 
 1. **View the CAD & Wiring Schematics:** Check out the `/CAD and structure` and `/Electronics` directory for Fusion 360 exports and Fritzing circuit diagrams.
-2. **soon**
-3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete devlogs and my thoughts on everything <3.
+3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete devlogs and my thoughts on everything <3 💖.
 
 ---
 
 ## 2nddd Project Goals
 
-1. **Support Youth Led Egyptian Projects:** Proving what young egyptian engineers can build from the ground up.
-2. **Sustainable Development Goals:** Promote both global and local sustainability by aligning with UN Sustainable Development Goals (SDGs 2, 8, 9, 11, 12, and 13).
-3. **Developing Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
-4. **Empower Human Intelligence:** using AI merely as a tool to increase productivity rather than as a source of creativity, since this project was developed with less than 10% AI assistance.
-5. **Protect the Planet:** Help protect the planet by removing organic waste and recyclables from landfills in order to reduce CO2 emissions and tackle environmental waste.
+1. **🇪🇬 Support Youth Led Egyptian Projects:** Proving what young egyptian engineers can build from the ground up.
+2. **🇺🇳 Sustainable Development Goals:** Promote both global and local sustainability by aligning with UN Sustainable Development Goals (SDGs 2, 8, 9, 11, 12, and 13).
+3. **🫂 Developing Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
+4. **🧠 Empower Human Intelligence:** using AI merely as a tool to increase productivity rather than as a source of creativity, since this project was developed with less than 10% AI assistance.
+5. **🌍 Protect the Planet:** Help protect the planet by removing organic waste and recyclables from landfills in order to reduce CO2 emissions and tackle environmental waste.
 
 ---
 
