@@ -32,11 +32,15 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 Since EcoRover is an embedded hardware project, you can explore the complete system architecture, hardware schematics, and project progression directly through the documentation:
 
 1. **View the CAD & Wiring Schematics:** Check out the `/CAD and structure` and `/Electronics` directory for more Fusion 360 exports and Fritzing circuit diagrams, the below gives you a pretty good idea.
-<img width="3000" height="3000" alt="Bottom Figure Render" src="https://github.com/user-attachments/assets/46e55735-1222-435d-970d-d8619384ef9e" />
-<img width="3000" height="3000" alt="Top Figure Render" src="https://github.com/user-attachments/assets/5f5a462f-813f-4bd8-9edd-c99a1f32992f" />
-<img width="3000" height="3000" alt="Mid Figure Render" src="https://github.com/user-attachments/assets/f48cd4de-e18d-4907-ae53-f126d614eb5d" />
-<img width="3000" height="3000" alt="Full Figure Render" src="https://github.com/user-attachments/assets/d44dcc96-5172-4fa3-884a-7797b22e75d7" />
-<img width="3000" height="3000" alt="Full Body sketch" src="https://github.com/user-attachments/assets/6212178f-c4da-4ff0-abd5-0c2750f5bccc" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/46e55735-1222-435d-970d-d8619384ef9e" alt="Bottom layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/f48cd4de-e18d-4907-ae53-f126d614eb5d" alt="Mid layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5f5a462f-813f-4bd8-9edd-c99a1f32992f" alt="Top layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d44dcc96-5172-4fa3-884a-7797b22e75d7" alt="Full Figure Render" width="200"/></td>
+  </tr>
+</table>
+
 
 3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete devlogs and my thoughts on everything <3 💖.
 
