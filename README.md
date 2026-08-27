@@ -22,6 +22,8 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 > **Note on AI Usage:**  about the usage of AI: The AI is being used in this project to generate ideas, explain and debug. However, it's not used to create parts of the project that require creativity, design and construction. Also, the AI is not used more than 10% of the total project. Which counts as MADE BY HUMAN.
 
+> **For whoever reviwing the proj.:**  Thank you for reading all of this and reconceder the funding, I've resolved most of the notes but please keep in mind that in egypt it's so hard to get aliexpress in here. like apart from the crazy long shiping time it probably wont pass the customs or pass it after making me pay a big tax. so I'll use the sources i used and the egyptian pound is already too cheap compared to the USD (0.020 usd for 1 egyptian pound). thanks again.
+
 > **The currnt state: waiting for funding, View [`JOURNAL.md`](./JOURNAL.md)**
 
 ---
