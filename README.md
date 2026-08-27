@@ -20,7 +20,7 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 </div>
 
-> **Note on AI Usage:** AI is being used in this project to brainstorm, explain and help debug. But it's not used to generate any part of the project that needs creativity, design, or building. And it's not used for more than 10% of the total project work, which counts as MADE BY HUMAN .
+> **Note on AI Usage:**  about the usage of AI: The AI is being used in this project to generate ideas, explain and debug. However, it's not used to create parts of the project that require creativity, design and construction. Also, the AI is not used more than 10% of the total project. Which counts as MADE BY HUMAN.
 
 > **The currnt state: waiting for funding, View [`JOURNAL.md`](./JOURNAL.md)**
 
@@ -38,17 +38,17 @@ Since EcoRover is an embedded hardware project, you can explore the complete sys
 ## 2nddd Project Goals
 
 1. **Support Youth Led Egyptian Projects:** Proving what young egyptian engineers can build from the ground up.
-2. **Drive Global & Local Sustainability:** Aligning with UN Sustainable Development Goals (**SDGs 2, 8, 9, 11, 12, and 13**).
+2. **Sustainable Development Goals:** Promote both global and local sustainability by aligning with UN Sustainable Development Goals (SDGs 2, 8, 9, 11, 12, and 13).
 3. **Developing Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
-4. **Empower Human Intelligence:** Using AI strictly as a productivity tool rather than a creative producer. this project was built with **less than 10% AI assistance**.
-5. **Protect the Planet:** Diverting organic leftovers and recyclables away from landfills to lower CO2 emissions and combat environmental waste.
+4. **Empower Human Intelligence:** using AI merely as a tool to increase productivity rather than as a source of creativity, since this project was developed with less than 10% AI assistance.
+5. **Protect the Planet:** Help protect the planet by removing organic waste and recyclables from landfills in order to reduce CO2 emissions and tackle environmental waste.
 
 ---
 
 ## 3rddd Key Features
 
-* **Dignity-Preserving Food Sharing:** Features an integrated, temperature-controlled compartment designed for food court leftovers so anyone in need can take meals without asking.
-* **Smart Autonomous Navigation:** Uses 8x HC-SR04 ultrasonic sensors mapped to North, South, East, and West for full 360° obstacle avoidance in crowded environments.
-* **Thermoelectric Cooling:** Houses an insulated storage area powered by a TEC1-12706 Peltier cooler driven via a 12V relay module to keep food fresh.
-* **4-Way Waste Sorting:** Integrates a multi-hole trash intake system for easy recycling categorization.
-* **Embedded Safety & Power Management:** Equipped with an inline fuse protection circuit and a master hardware rocker switch for instant power isolation, along with multiple access panels for maintenance and latches in case of an emergency -god forbid-.
+* The scheme which respects dignity includes an integrated, temperature controlled compartment specifically for food court leftovers, allowing people who need food to take meals without having to ask.
+* The smart autonomous navigation system makes use of 8 HC-SR04 ultrasonic sensors, with each 2 sensors being assigned to the north, south, east, and west directions in order to achieve complete 360-degree obstacle avoidance in crowded areas.
+* The system uses a Thermoelectric Cooler, specifically a TEC1-12706 Peltier cooler, which is operated through a 12V relay module to power an insulated storage compartment so that the food remains fresh (Not food grade yet lol but just keep reading).
+* 4 Way Waste Sorting multi hole trash intake system for easy categorization.
+* Safety and power management features include an inline fuse protection circuit, a main hardware rocker switch for cutting off power instantly, as well as several access panels for maintenance and latches in case of an emergency -though God forbid that happens-.
