@@ -38,9 +38,9 @@ Since EcoRover is an embedded hardware project, you can explore the complete sys
     <td><img src="https://github.com/user-attachments/assets/f48cd4de-e18d-4907-ae53-f126d614eb5d" alt="Mid layer Render" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/5f5a462f-813f-4bd8-9edd-c99a1f32992f" alt="Top layer Render" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/d44dcc96-5172-4fa3-884a-7797b22e75d7" alt="Full Figure Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cd211fa0-7bb2-4a7c-b59b-59fcfc9782f7" alt="Schem V2" width="200"/></td>
   </tr>
 </table>
-
 
 3. **Track Development:** Read [`JOURNAL.md`](./JOURNAL.md) for complete devlogs and my thoughts on everything <3 💖.
 
