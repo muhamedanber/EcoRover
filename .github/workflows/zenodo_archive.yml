@@ -20,22 +20,37 @@ jobs:
         env:
           ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
         run: |
-          # 1. Generate full metadata configuration file containing all required system parameters
+          # 1. Generate full metadata configuration file using Zenodo's updated RDM structure
           cat << 'EOF' > metadata.json
           {
             "metadata": {
               "title": "Automated Code Archive: EcoRover",
-              "upload_type": "software",
+              "resource_type": {
+                "id": "software"
+              },
               "description": "A motorized recycling bin targeting food courts with a built-in fridge to store food left-overs so other people can use it. Helping saving our planet, achive SDGs 2, 8, 9, 11, 12, and 13 and increasing social Interdependence! (A Stardance project)",
-              "creators": [{"name": "Anber, Mohammed"}],
+              "creators": [
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "family_name": "Anber",
+                    "given_name": "Mohammed"
+                  }
+                }
+              ],
               "access_right": "open",
-              "license": "cc-by-nc-4.0",
+              "rights": [
+                {
+                  "id": "cc-by-nc-4.0"
+                }
+              ],
               "publication_date": "2026-07-17"
             }
           }
           EOF
 
-          echo "Requesting Zenodo to create a secure deposit draft..."
+          echo "Requesting Zenodo to create a modern deposit draft..."
+          # Fix: Target the new /api/records endpoint rather than /api/deposit/depositions
           DEPOSIT_RESPONSE=$(curl -s -X POST "https://zenodo.org" \
             -H "Authorization: Bearer $ZENODO_TOKEN" \
             -H "Content-Type: application/json" \
@@ -48,26 +63,34 @@ jobs:
           fi
 
           DEPOSIT_ID=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.id')
-          BUCKET_URL=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.links.bucket')
+          BUCKET_URL=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.links.files')
           
           echo "✅ Created deposition ID: $DEPOSIT_ID"
 
           echo "Uploading ZIP package to Zenodo storage..."
-          curl -s -X PUT "$BUCKET_URL/repo-archive.zip" \
+          # Fix: Target the updated record file upload pipeline paths
+          curl -s -X POST "$BUCKET_URL" \
+            -H "Authorization: Bearer $ZENODO_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '[{"key": "repo-archive.zip"}]'
+
+          curl -s -X PUT "https://zenodo.org/$DEPOSIT_ID/draft/files/repo-archive.zip/content" \
             -H "Authorization: Bearer $ZENODO_TOKEN" \
             -H "Content-Type: application/octet-stream" \
             --data-binary @repo-archive.zip
 
+          curl -s -X POST "https://zenodo.org/$DEPOSIT_ID/draft/files/repo-archive.zip/commit" \
+            -H "Authorization: Bearer $ZENODO_TOKEN"
+
           echo "Publishing deposition to mint permanent DOI..."
-          PUBLISH_RESPONSE=$(curl -s -X POST "https://zenodo.org/$DEPOSIT_ID/actions/publish" \
+          PUBLISH_RESPONSE=$(curl -s -X POST "https://zenodo.org/$DEPOSIT_ID/draft/actions/publish" \
             -H "Authorization: Bearer $ZENODO_TOKEN")
           
-          # Catch missing validation errors on the publishing step specifically
           if ! echo "$PUBLISH_RESPONSE" | jq -e . >/dev/null 2>&1; then
             echo "❌ ERROR: Publishing step failed. Server response:"
             echo "$PUBLISH_RESPONSE"
             exit 1
           fi
 
-          DOI=$(echo "$PUBLISH_RESPONSE" | jq --raw-output '.doi')
+          DOI=$(echo "$PUBLISH_RESPONSE" | jq --raw-output '.pids.doi.identifier')
           echo "🎉 Successfully published to Zenodo! Your permanent DOI is: https://doi.org"
