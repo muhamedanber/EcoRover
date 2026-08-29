@@ -3,7 +3,7 @@ name: Auto-Archive to Zenodo
 on:
   push:
     branches:
-      - main  # Triggers the code when you push changes to the main branch
+      - main
 
 jobs:
   archive:
@@ -20,30 +20,46 @@ jobs:
         env:
           ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
         run: |
-          # 1. Create a new empty deposit draft on Zenodo
+          # 1. Create a new empty deposit draft on Zenodo safely using a local payload file
+          cat << 'EOF' > metadata.json
+          {
+            "metadata": {
+              "title": "Automated Code Archive: EcoRover",
+              "upload_type": "software",
+              "description": "A motorized recycling bin targeting food courts with a built-in fridge to store food left-overs so other people can use it. Helping saving our planet, achive SDGs 2, 8, 9, 11, 12, and 13 and increasing social Interdependence! (A Stardance project)",
+              "creators": [{"name": "Anber, Mohammed"}]
+            }
+          }
+          EOF
+
+          echo "Requesting Zenodo to create a deposit draft..."
           DEPOSIT_RESPONSE=$(curl -s -X POST "https://zenodo.org" \
             -H "Content-Type: application/json" \
-            -d '{"metadata": {
-                  "title": "Automated Code Archive: '${{ github.event.repository.name }}'",
-                  "upload_type": "software",
-                  "description": "A motorized recycling bin targeting food courts with a built-in fridge to store food left-overs so other people can use it. Helping saving our planet, achive SDGs 2, 8, 9, 11, 12, and 13 and increasing social Interdependence! (A Stardance project)",
-                  "creators": [{"name": "Anber, Mohammed"}]
-                }}')
+            -d @metadata.json)
           
-          # Extract the Deposition ID and bucket URL from the API response
+          # Debug step: Check if the response is actually valid JSON
+          if ! echo "$DEPOSIT_RESPONSE" | jq -e . >/dev/null 2>&1; then
+            echo "❌ ERROR: Zenodo did not return valid JSON data. Here is the raw server response:"
+            echo "$DEPOSIT_RESPONSE"
+            exit 1
+          fi
+
+          # Extract the Deposition ID and bucket URL
           DEPOSIT_ID=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.id')
           BUCKET_URL=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.links.bucket')
           
-          echo "Created deposition ID: $DEPOSIT_ID"
+          echo "✅ Created deposition ID: $DEPOSIT_ID"
 
           # 2. Upload the ZIP archive into the Zenodo deposit bucket
+          echo "Uploading ZIP package to Zenodo storage bucket..."
           curl -s -X PUT "$BUCKET_URL/repo-archive.zip?access_token=$ZENODO_TOKEN" \
             -H "Content-Type: application/zip" \
             --data-binary @repo-archive.zip
 
           # 3. Publish the deposit to officially mint the DOI
+          echo "Publishing deposition to mint permanent DOI..."
           PUBLISH_RESPONSE=$(curl -s -X POST "https://zenodo.org")
           
           # Extract and log the newly generated DOI
           DOI=$(echo "$PUBLISH_RESPONSE" | jq --raw-output '.doi')
-          echo "Successfully published to Zenodo! Your permanent DOI is: $DOI"
+          echo "🎉 Successfully published to Zenodo! Your permanent DOI is: https://doi.org"
