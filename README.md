@@ -18,11 +18,12 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">
     <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="CC BY-NC 4.0">
   </a>
-  <div align="center">
-  <a href="https://doi.org">
-    <img src="[https://zenodo.org](https://doi.org/10.5281/zenodo.22163564)" alt="DOI">
+
+  <a href="https://doi.org/10.5281/zenodo.22163564">
+    <img src="https://zenodo.org" alt="DOI">
   </a>
 </div>
+
 
 </div>
 
