@@ -33,36 +33,32 @@ jobs:
           EOF
 
           echo "Requesting Zenodo to create a secure deposit draft..."
-          
-          # Pass token securely via HTTP Header rather than URL parameters to avoid 405 error
           DEPOSIT_RESPONSE=$(curl -s -X POST "https://zenodo.org/api/deposit/depositions" \
             -H "Authorization: Bearer $ZENODO_TOKEN" \
             -H "Content-Type: application/json" \
             -d @metadata.json)
           
-          # Verify response validity before processing
           if ! echo "$DEPOSIT_RESPONSE" | jq -e . >/dev/null 2>&1; then
             echo "❌ ERROR: Zenodo did not return valid JSON data. Server response:"
             echo "$DEPOSIT_RESPONSE"
             exit 1
           fi
 
-          # Extract target location details
           DEPOSIT_ID=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.id')
           BUCKET_URL=$(echo "$DEPOSIT_RESPONSE" | jq --raw-output '.links.bucket')
           
           echo "✅ Created deposition ID: $DEPOSIT_ID"
 
           echo "Uploading ZIP package to Zenodo storage..."
+          # Fix: Use application/octet-stream and explicitly declare target file name in URL path
           curl -s -X PUT "$BUCKET_URL/repo-archive.zip" \
             -H "Authorization: Bearer $ZENODO_TOKEN" \
-            -H "Content-Type: application/zip" \
+            -H "Content-Type: application/octet-stream" \
             --data-binary @repo-archive.zip
 
           echo "Publishing deposition to mint permanent DOI..."
           PUBLISH_RESPONSE=$(curl -s -X POST "https://zenodo.org" \
             -H "Authorization: Bearer $ZENODO_TOKEN")
           
-          # Extract and print out final DOI assignment
           DOI=$(echo "$PUBLISH_RESPONSE" | jq --raw-output '.doi')
           echo "🎉 Successfully published to Zenodo! Your permanent DOI is: https://doi.org"
