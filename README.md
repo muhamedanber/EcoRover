@@ -8,8 +8,10 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 </div>
     &nbsp;&nbsp;
 
-[![DOI](https://zenodo.org/badge/1303379956.svg)](https://doi.org/10.5281/zenodo.22164229)
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.22164229"><img src="https://zenodo.org/badge/1303379956.svg" alt="DOI"></a>
+  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License"></a>
+</p>
 
 </div>
 
