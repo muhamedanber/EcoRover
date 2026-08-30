@@ -4,7 +4,7 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 ![EcoRover Hero](./assets/ecorover-hero.png)
 
 <div align="center">
- <img width="323" height="49" alt="github logos" src="https://github.com/user-attachments/assets/eb0eecda-1033-4113-823e-2bd5743bd1f0" />
+<img width="300" height="100" alt="github logos" src="https://github.com/user-attachments/assets/0794ed15-8c2f-4819-9aad-5f0ab41fded9" />
 </div>
     &nbsp;&nbsp;
 
