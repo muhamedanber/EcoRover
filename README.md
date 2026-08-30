@@ -4,20 +4,14 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 ![EcoRover Hero](./assets/ecorover-hero.png)
 
 <div align="center">
-  <img src="./assets/logo.png" alt="EcoRover Logo" height="45" />
-  &nbsp;&nbsp;
-    <img src="./assets/ALogo.png" alt="Anber Logo" height="45" />
-  &nbsp;&nbsp;
-  <img src="./assets/mbh.png" alt="Made by Human" height="32" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Made%20in-Egypt-green?style=flat-square" alt="Made in Egypt" height="32" />
+ <img width="323" height="49" alt="github logos" src="https://github.com/user-attachments/assets/eb0eecda-1033-4113-823e-2bd5743bd1f0" />
 </div>
     &nbsp;&nbsp;
 
-
+<div align="center">
 [![DOI](https://zenodo.org/badge/1303379956.svg)](https://doi.org/10.5281/zenodo.22164229)
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
+</div>
 
 </div>
 
