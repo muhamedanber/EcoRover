@@ -118,3 +118,24 @@ Just got off the phone with Sama@VeryNile. they can do it for free yayyy 🎉. I
 
 ### Sep 1st, 2026
 Vibe edited the code (the original one was open source) but it's still the original code just with added futures not removing anything from the original one, and vectorized the design so the CNC machine can engrave it. Also i've wrote the devlog so i add the 7 hours i made. Also a lot of things went out of stock so I've to sacrifice things to pay for the most important or pay out of pocket.
+
+
+---
+
+Devlog #4: Funding Loops, Licensing Hassles, and a Huge Local Win
+
+– From Jul 31st to Sep 1st 2026 –
+
+Man, August was an absolute administrative marathon.
+
+First came the banking wild goose chase. I went through the whole process of opening a brand new USD bank account in Egypt specifically to receive the project grant, only to find out right after activation that funding was being issued as a card grant anyway 🤡. Total facepalm moment, but a good reality check to stop making assumptions before jumping through hoops.
+
+To make matters more frustrating, the grant review hit a few speedbumps. Stardance flagged my initial README as AI-generated and asked me to clean it up, fix my BOM pricing into USD, link standard STEP files, and push the initial firmware to the repo. I also ended up building off an open source obstacle detection script to get the base firmware pre release ready. Between waiting on grant replies, keeping up with these repo adjustments, and dealing with some heavy life updates floating in the background, things got pretty exhausting and its been already 8 days.
+
+Luckily, the highlight of this entire month came from reaching out to VeryNile. If you don’t know them, they are a fantastic Egyptian initiative that cleans plastic waste from the Nile using local boats, pays local fishermen to collect the waste, and employs local women from Qorsaya island to upcycle that plastic into new materials. They have a CNC machine that engraves directly on their recycled plastic sheets.
+
+Since our missions align so closely on sustainability and local impact, I wanted to collaborate with them on a custom plate for EcoRover that features our logos and a “Made in Egypt” emblem and some other logos. After a couple of calls with their team, Sama from VeryNile confirmed they would engrave and donate the custom plate for free! 🎉
+
+with that the core design, licensing (CC-BY-NC-SA 4.0 for the hardware assets via Zenodo -to get a DOI- and MIT for the code), and local partnerships are locked in.
+
+Next up: picking up the custom plate from Qorsaya and starting physical assembly!
