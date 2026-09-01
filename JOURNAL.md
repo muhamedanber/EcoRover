@@ -122,7 +122,7 @@ Vibe edited the code (the original one was open source) but it's still the origi
 
 ---
 
-Devlog #4: Funding Loops, Licensing Hassles, and a Huge Local Win
+## Devlog #4: Funding Loops, Licensing Hassles, and a Huge Local Win
 
 – From Jul 31st to Sep 1st 2026 –
 
