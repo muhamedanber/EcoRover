@@ -115,3 +115,6 @@ Once these changes are made, and everything is good, we will take another look, 
 
 ### Aug 31st, 2026
 Just got off the phone with Sama@VeryNile. they can do it for free yayyy 🎉. I'm really happy it worked out like this, im supposed to go pick it up by thursday and have a tour there, and for my luck it'll also be a volunteers day soooo maybe i'll go 😁 (IDK really yet but i guess it'll be so much fun). thanks again VeryNile for your generosity and thanks stardance for making all of this possible. and for this I've added a note on the plate thanking both parties. with that being said, i guess thats it for today ill just follow up with Sama till we see what works with there CNC cuz they've a 3mm drilling bit which is too big for small details, the 1mm just breakes when they try to use it. 
+
+### Sep 1st, 2026
+Vibe edited the code (the original one was open source) but it's still the original code just with added futures not removing anything from the original one, and vectorized the design so the CNC machine can engrave it.
