@@ -29,7 +29,7 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 ## 1sttt Quick Start
 Since EcoRover is an embedded hardware project, you can explore the complete system architecture, hardware schematics, and project progression directly through the documentation:
 
-1. **View the CAD & Wiring Schematics:** Check out the `/CAD and structure` and `/Electronics` directory for more Fusion 360 exports and Fritzing circuit diagrams, the below gives you a pretty good idea.
+1. **View the CAD & Wiring Schematics:** Check out the `/CAD and structure`, `/Electronics` and `/Firmwear` directories for more Fusion 360 exports, Fritzing circuit diagrams, and the firmware (make sure to take a look at the [`LICENSE.md`](./LICENSE.md) first ✦). The below table gives you a pretty good idea aboout the project.
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/46e55735-1222-435d-970d-d8619384ef9e" alt="Bottom layer Render" width="200"/></td>
