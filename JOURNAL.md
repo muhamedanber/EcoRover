@@ -139,3 +139,11 @@ Since our missions align so closely on sustainability and local impact, I wanted
 with that the core design, licensing (CC-BY-NC-SA 4.0 for the hardware assets via Zenodo -to get a DOI- and MIT for the code), and local partnerships are locked in.
 
 Next up: picking up the custom plate from Qorsaya and starting physical assembly!
+
+
+---
+
+## 📌 Daily Log Updates
+
+### Sep 03rd, 2026
+I'm still waiting for the funding, there's nothing i've to do and i'm really bored. idk why this time the review is taking so long.
