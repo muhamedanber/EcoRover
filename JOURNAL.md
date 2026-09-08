@@ -156,6 +156,7 @@ Today was crazyyy, I went to VeryNile and met with Maryam and Sama and they were
 <img width="400" alt="Snapchat-947293805" src="https://github.com/user-attachments/assets/dd8921b7-df07-4adb-99fa-b83fee90ff5f" />
 
 ### Sep 07th, 2026
+😁😁
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e63070b5-0aff-404a-8a6d-970623ab1921" alt="Bottom layer Render" width="200"/></td>
@@ -165,4 +166,4 @@ Today was crazyyy, I went to VeryNile and met with Maryam and Sama and they were
     <td><img src="https://github.com/user-attachments/assets/3bfa0142-a334-4093-b293-2321b46fbae9" alt="Schem V2" width="200"/></td>
   </tr>
 </table>
-😁
+
