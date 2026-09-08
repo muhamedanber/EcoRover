@@ -155,9 +155,13 @@ It's been 6 days with radio silence, i really started to lose fire and my person
 Today was crazyyy, I went to VeryNile and met with Maryam and Sama and they were really hospitable. They showed me around and told me everything about VeryNile which is really impressive. and omg the plate looks super good, A REALLY huge thank you for all of them for this effort, and I'm pretty sure we're gonna do more beautiful things in the future together. <img width="1080" height="1920" alt="Snapchat-947293805" src="https://github.com/user-attachments/assets/dd8921b7-df07-4adb-99fa-b83fee90ff5f" />
 
 ### Sep 07th, 2026
-<img width="3072" height="4096" alt="IMG_20260908_045020" src="https://github.com/user-attachments/assets/e63070b5-0aff-404a-8a6d-970623ab1921" />
-<img width="3072" height="4096" alt="IMG_20260908_045024" src="https://github.com/user-attachments/assets/b008b278-e0a6-4218-a8c3-828ed22d984c" />
-<img width="3072" height="4096" alt="IMG_20260908_045028" src="https://github.com/user-attachments/assets/5298b125-3927-4d8d-9354-7a68cef16163" />
-<img width="3072" height="4096" alt="IMG_20260908_045032" src="https://github.com/user-attachments/assets/556a41ec-e498-4cef-bad9-371c397c90f7" />
-<img width="3072" height="4096" alt="IMG_20260908_045036" src="https://github.com/user-attachments/assets/3bfa0142-a334-4093-b293-2321b46fbae9" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e63070b5-0aff-404a-8a6d-970623ab1921" alt="Bottom layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b008b278-e0a6-4218-a8c3-828ed22d984c" alt="Mid layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5298b125-3927-4d8d-9354-7a68cef16163" alt="Top layer Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/556a41ec-e498-4cef-bad9-371c397c90f7" alt="Full Figure Render" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3bfa0142-a334-4093-b293-2321b46fbae9" alt="Schem V2" width="200"/></td>
+  </tr>
+</table>
 😁
