@@ -167,3 +167,5 @@ Today was crazyyy, I went to VeryNile and met with Maryam and Sama and they were
   </tr>
 </table>
 
+### Sep 10th, 2026
+Still radio static. the most terrifying part that i genuinely dont know if i'm returning to saudi arabia and if it's soon. like what i went there and the funding came after that, 177usd wont get me there half of the stuff i'm gonna buy from here. also my personal life is.. idk really its getting messy in ways and orgnized in others, i really dont know. and i don't really have someone to talk to about this so thats why im here talking with you guys (IDK if anyone would read this far, must be a secret lover if this intrested XD XD). Anyways i got a parttime remote job that i'll focus on slightly in the next days.
