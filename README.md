@@ -46,7 +46,7 @@ The project is made of 3 main parts with a footprint of 40x30cm and moddeled int
 
 | Bottom Figure Render | Bot Bottom Figure | Bottom Body Sketch |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/86312606-fed2-4de1-a743-ca8839195b5a" width="300" alt="Bottom Figure Render" /> | <img src="https://github.com/user-attachments/assets/f5253936-75da-44f9-bc12-4cf29bc2ff38" width="300" alt="Bot Body figure V1" /> | <img width="3000" height="3000" alt="Bot Body sketch" src="https://github.com/user-attachments/assets/bfe46d74-bfd9-42ef-a2cd-492f460f9620" />
+| <img src="https://github.com/user-attachments/assets/86312606-fed2-4de1-a743-ca8839195b5a" width="300" alt="Bottom Figure Render" /> | <img src="https://github.com/user-attachments/assets/f5253936-75da-44f9-bc12-4cf29bc2ff38" width="300" alt="Bot Body figure V1" /> | <img width="300" height="300" alt="Bot Body sketch" src="https://github.com/user-attachments/assets/bfe46d74-bfd9-42ef-a2cd-492f460f9620" />
  |
 
 
