@@ -47,11 +47,17 @@ The project is made of 3 main parts with a footprint of 40x30cm and moddeled int
 | Bottom Figure Render | Bot Bottom Figure | Bottom Body Sketch |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/86312606-fed2-4de1-a743-ca8839195b5a" width="300" alt="Bottom Figure Render" /> | <img src="https://github.com/user-attachments/assets/f5253936-75da-44f9-bc12-4cf29bc2ff38" width="300" alt="Bot Body figure V1" /> | <img width="300" alt="Bot Body sketch" src="https://github.com/user-attachments/assets/bfe46d74-bfd9-42ef-a2cd-492f460f9620" />
- |
-
 
 * **Middle tier:** The fridge and logic board layer, 45cm.
+
+| Mid Body Figure V2 | Mid Figure Render | Mid Body Sketch |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/47d97184-6cb3-4999-a200-4c366c480cb9" width="300" alt="Mid Body figure V2" /> | <img src="https://github.com/user-attachments/assets/0881734b-e47f-4031-ba30-12a2c3542dbb" width="300" alt="Mid Figure Render" /> | <img src="https://github.com/user-attachments/assets/424f48ab-c75a-46df-b86d-adc7fe3a61db" width="300" alt="Mid Body sketch" /> |
+
 * **Top tier:** The trash seprator compartment, 35cm.
+| Top Figure V2 | Top Figure Render | Top Body Sketch |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/90f8e999-ff48-456d-8cf1-5797f06bc130" width="300" alt="Top figure V2" /> | <img src="https://github.com/user-attachments/assets/3ab02817-7d88-4b35-ae78-63ba3451b6fb" width="300" alt="Top Figure Render" /> | <img src="https://github.com/user-attachments/assets/aad35eec-fb17-4466-80e4-9a5c63993d15" width="300" alt="Top Body sketch" /> |
 
 When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I just started drawing it and didn’t notice it was way too short, making the trash compartment totally inaccessible and the fridge way too tiny. I didn’t notice till I was already cadding. Since 30x40cm is a good footprint, I decided to keep that but when I pulled out a physical tape measure and imagined the project I found myself bending over just to reach over that height! So, I pushed it up to 90cm, which feels much better. Gemini assumed I would use heavy materials, but I’m going lightweight, so Inshallah it won’t tip over.
 
