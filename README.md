@@ -71,10 +71,13 @@ The firmware manages everything, takes the siginal from the 8 HC-SR04 ultrasonic
 Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 
 ---
-## 2nd Key Features
 
-* The scheme which respects dignity includes an integrated, temperature controlled compartment specifically for food court leftovers, allowing people who need food to take meals without having to ask.
-* The smart autonomous navigation system makes use of 8 HC-SR04 ultrasonic sensors, with each 2 sensors being assigned to the north, south, east, and west directions in order to achieve complete 360-degree obstacle avoidance in crowded areas.
-* The system uses a Thermoelectric Cooler, specifically a TEC1-12706 Peltier cooler, which is operated through a 12V relay module to power an insulated storage compartment so that the food remains fresh (Not food grade yet lol but just keep reading).
-* 4 Way Waste Sorting multi hole trash intake system for easy categorization.
-* Safety and power management features include an inline fuse protection circuit, a main hardware rocker switch for cutting off power instantly, as well as several access panels for maintenance and latches in case of an emergency -though God forbid that happens-.
+## 4th The wiring
+
+The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. it went through 2 ittrations and im sure ive got some connections wrong but its only to visualize things. both of them are missing the movmet safty system but it has the crucial electrical safty system on V2. and to prevent electrical fire I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect
+
+
+| EcoRover V2 | EcoRover V1 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> |
+
