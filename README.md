@@ -28,14 +28,14 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 ## 1st The project and It's goals:
 
-It’s a fancy trashcan after all XD, it has 5 wheels and sensors and it’s gonna be wandering around in food courts with a built-in fridge. And it’s gonna store food leftovers (along with functioning like a recycling bin obviously) That way, whenever someone needs food, they can just take it without having to ask anyone, keeping their dignity completely intact. While still serving as a trashcan with 4 holes so it can be recycled later.
+It’s a fancy trashcan after all XD, it has 5 wheels and sensors, and it’s gonna be wandering around in food courts with a built-in fridge. And it’s gonna store food leftovers (along with functioning like a recycling bin obviously). That way, whenever someone needs food, they can just take it without having to ask anyone, keeping their dignity completely intact. While still serving as a trash can with 4 holes so it can be recycled later.
 
-1. **🇪🇬 Support Youth Led Egyptian Projects:** Proving what young egyptian engineers can build from the ground up (like me XD).
-2. **🇺🇳 Sustainable Development Goals:** Promote both global and local sustainability by aligning with UN Sustainable Development Goals 2, 8, 9, 11, 12, and 13 (This isn't planned I found out halfway through the project lol).
-3. **🫂 Developing Social Solidarity:** Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
-4. **🧠 Empower Human Intelligence:** using AI merely as a tool to increase productivity rather than as a source of creativity, since this project was developed with less than 10% AI assistance.
-5. **🌍 Protect the Planet:** Help protect the planet by removing organic waste and recyclables from landfills in order to reduce CO2 emissions and tackle environmental waste.
-
+1. 🇪🇬 Support Youth-Led Egyptian Projects: Proving what young Egyptian engineers can build from the ground up (like me XD).
+2. 🇺🇳 Sustainable Development Goals: Promote both global and local sustainability by aligning with UN Sustainable Development Goals 2, 8, 9, 11, 12, and 13 (This isn’t planned; I found out halfway through the project lol).
+3. 🫂 Developing Social Solidarity: Protecting human dignity while reducing food waste by making leftover food accessible without friction or embarrassment.
+4. 🧠 Empower Human Intelligence: Using AI merely as a tool to increase productivity rather than as a source of creativity, since this project was developed with less than 10% AI assistance.
+5. 🌍 Protect the Planet: Help protect the planet by removing organic waste and recyclables from landfills to reduce CO2 emissions and tackle environmental waste.
+   
 ---
 
 ## 2nd The CAD
@@ -60,13 +60,13 @@ The project is made of 3 main parts with a footprint of 40x30cm and moddeled int
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/90f8e999-ff48-456d-8cf1-5797f06bc130" width="300" alt="Top figure V2" /> | <img src="https://github.com/user-attachments/assets/3ab02817-7d88-4b35-ae78-63ba3451b6fb" width="300" alt="Top Figure Render" /> | <img src="https://github.com/user-attachments/assets/aad35eec-fb17-4466-80e4-9a5c63993d15" width="300" alt="Top Body sketch" /> |
 
-When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I just started drawing it and didn’t notice it was way too short, making the trash compartment totally inaccessible and the fridge way too tiny. I didn’t notice till I was already cadding. Since 30x40cm is a good footprint, I decided to keep that but when I pulled out a physical tape measure and imagined the project I found myself bending over just to reach over that height! So, I pushed it up to 90cm, which feels much better. Gemini assumed I would use heavy materials, but I’m going lightweight, so Inshallah it won’t tip over.
+When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I just started drawing it and didn’t notice it was way too short, making the trash compartment totally inaccessible and the fridge way too tiny. I didn’t notice till I was already cadding. Since 30x40cm is a good footprint, I decided to keep that, but when I pulled out a physical tape measure and imagined the project, I found myself bending over just to reach that height! So, I pushed it up to 90cm, which feels much better. Gemini assumed I would use heavy materials, but I’m going lightweight, so Inshallah it won’t tip over.
 
 ---
 
 ## 3rd The Firmware
 
-The firmware manages everything, takes the siginal from the 8 HC-SR04 ultrasonic sensors and calculates the distance in all direction and based on that it decideds it's move (moveForward, moveBackward, spinLeft, spinRight, and stop.). On setup it runs the cooling system immediately and it also manages the safty indcators system (Buzzer and back LEDs for right and left.)
+The firmware manages everything, takes the signal from the 8 HC-SR04 ultrasonic sensors, and calculates the distance in all directions; based on that, it decides its move (moveForward, moveBackward, spinLeft, spinRight, and stop). On setup, it runs the cooling system immediately, and it also manages the safety indicators system (Buzzer and back LEDs for right and left)
 
 Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 
@@ -74,7 +74,7 @@ Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 
 ## 4th The wiring
 
-The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. it went through 2 ittrations and im sure ive got some connections wrong but its only to visualize things. both of them are missing the movmet safty system but it has the crucial electrical safty system on V2. and to prevent electrical fire I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect
+The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. It went through 2 iterations, and I'm sure I've got some connections wrong, but it's only to visualize things. Both of them are missing the movmet safty system, but it has the crucial electrical safety system on V2. And to prevent electrical fire, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout-out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect.
 
 
 | EcoRover V2 | EcoRover V1 |
