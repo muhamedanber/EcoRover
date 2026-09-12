@@ -64,6 +64,13 @@ When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I ju
 
 ---
 
+## 3rd The Firmware
+
+The firmware manages everything, takes the siginal from the 8 HC-SR04 ultrasonic sensors and calculates the distance in all direction and based on that it decideds it's move (moveForward, moveBackward, spinLeft, spinRight, and stop.). On setup it runs the cooling system immediately and it also manages the safty indcators system (Buzzer and back LEDs for right and left.)
+
+Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
+
+---
 ## 2nd Key Features
 
 * The scheme which respects dignity includes an integrated, temperature controlled compartment specifically for food court leftovers, allowing people who need food to take meals without having to ask.
