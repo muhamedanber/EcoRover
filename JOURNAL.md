@@ -172,4 +172,7 @@ Still radio static. the most terrifying part that i genuinely dont know if i'm r
 - later into the day: I've DMed the same guy who reviewed my project before and he told me he'll look into it, then he returned the project again cuz of (Hello!
 
 Great work on this project! However, I know based off of the dms that we had, that you haven't coded for a while, but that is the whole point of stardance! You are to code yourself. You can't just open source something and use AI to make it yours. Please make the code yourself.). So ill try to make it myself even though i suck in coding but we'll see whats going on.
-- later into the day.. again: Its 0306 IN THE MORNING, im tired but i'm done. technically it's sep 11th but i still havent slept so for me its still today  
+- later into the day.. again: Its 0306 IN THE MORNING, im tired but i'm done. technically it's sep 11th but i still havent slept so for me its still today
+
+### Sep 11th, 2026
+I want to shout out to Jay, the hardware reviwer i've been contacting for a few days. he is really patient with me as my project needed a lot of fixes before he can issue the funding. and he's still following up with me. a big thank you!
