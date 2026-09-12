@@ -55,6 +55,7 @@ The project is made of 3 main parts with a footprint of 40x30cm and moddeled int
 | <img src="https://github.com/user-attachments/assets/47d97184-6cb3-4999-a200-4c366c480cb9" width="300" alt="Mid Body figure V2" /> | <img src="https://github.com/user-attachments/assets/0881734b-e47f-4031-ba30-12a2c3542dbb" width="300" alt="Mid Figure Render" /> | <img src="https://github.com/user-attachments/assets/424f48ab-c75a-46df-b86d-adc7fe3a61db" width="300" alt="Mid Body sketch" /> |
 
 * **Top tier:** The trash seprator compartment, 35cm.
+  
 | Top Figure V2 | Top Figure Render | Top Body Sketch |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/90f8e999-ff48-456d-8cf1-5797f06bc130" width="300" alt="Top figure V2" /> | <img src="https://github.com/user-attachments/assets/3ab02817-7d88-4b35-ae78-63ba3451b6fb" width="300" alt="Top Figure Render" /> | <img src="https://github.com/user-attachments/assets/aad35eec-fb17-4466-80e4-9a5c63993d15" width="300" alt="Top Body sketch" /> |
