@@ -38,6 +38,20 @@ It’s a fancy trashcan after all XD, it has 5 wheels and sensors, and it’s go
    
 ---
 
+## 1stish Features
+
+Here's everything packed into EcoRover to make it actually work out in the wild (a.k.a. food courts):
+
+* **Built-in Leftover Fridge:** Keeps uncontaminated leftover food fresh and chilled right inside the rover, giving anyone who needs a meal direct access to it without having to ask anyone or feel awkward.
+* **4-Way Trash Separator:** Built into the top tier so people can sort recyclables and waste on the fly instead of tossing everything into one pile.
+* **Autonomous Navigation:** Powered by an array of 8 HC-SR04 ultrasonic sensors that continuously scan all directions to dodge people, tables, and obstacles while wandering around.
+* **Custom 3-Tier Modular Structure:** Modeled in Fusion 360 with a compact 40x30cm footprint and an ergonomic 90cm standing height so users don't have to bend over to toss waste or grab food.
+* **Safety & Indicator System:** Includes an onboard buzzer and directional rear LEDs to signal movement (turning left, right, or stopping) so people in crowded areas see and hear it coming.
+* **Dedicated Power & Driver Tier:** A low-center-of-gravity bottom compartment housing the battery, motor drivers (H-bridges), and motors to keep the rover stable while moving.
+* **Instant-On Active Cooling:** System firmware fires up the fridge unit immediately on boot up to ensure food stays safe from the moment the rover starts running.
+
+---
+
 ## 2nd The CAD
 
 The project is made of 3 main parts with a footprint of 40x30cm and moddeled into fusion 360 (my first time cadding).
