@@ -38,21 +38,22 @@ It’s a fancy trashcan after all XD, it has 5 wheels and sensors, and it’s go
    
 ---
 
-## 1stish Features
+## 2nd Features
 
-Here's everything packed into EcoRover to make it actually work out in the wild (a.k.a. food courts):
+Here's everything packed into EcoRover to make it actually work out in the wild (
+aka food courts):
 
 * **Built-in Leftover Fridge:** Keeps uncontaminated leftover food fresh and chilled right inside the rover, giving anyone who needs a meal direct access to it without having to ask anyone or feel awkward.
 * **4-Way Trash Separator:** Built into the top tier so people can sort recyclables and waste on the fly instead of tossing everything into one pile.
 * **Autonomous Navigation:** Powered by an array of 8 HC-SR04 ultrasonic sensors that continuously scan all directions to dodge people, tables, and obstacles while wandering around.
 * **Custom 3-Tier Modular Structure:** Modeled in Fusion 360 with a compact 40x30cm footprint and an ergonomic 90cm standing height so users don't have to bend over to toss waste or grab food.
 * **Safety & Indicator System:** Includes an onboard buzzer and directional rear LEDs to signal movement (turning left, right, or stopping) so people in crowded areas see and hear it coming.
-* **Dedicated Power & Driver Tier:** A low-center-of-gravity bottom compartment housing the battery, motor drivers (H-bridges), and motors to keep the rover stable while moving.
+* **Dedicated Power & Driver Tier:** A low center of gravity bottom compartment housing the battery, motor drivers, and motors to keep the rover stable while moving.
 * **Instant-On Active Cooling:** System firmware fires up the fridge unit immediately on boot up to ensure food stays safe from the moment the rover starts running.
 
 ---
 
-## 2nd The CAD
+## 3rd The CAD
 
 The project is made of 3 main parts with a footprint of 40x30cm and moddeled into fusion 360 (my first time cadding).
 
@@ -78,7 +79,7 @@ When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I ju
 
 ---
 
-## 3rd The Firmware
+## 4th The Firmware
 
 The firmware manages everything, takes the signal from the 8 HC-SR04 ultrasonic sensors, and calculates the distance in all directions; based on that, it decides its move (moveForward, moveBackward, spinLeft, spinRight, and stop). On setup, it runs the cooling system immediately, and it also manages the safety indicators system (Buzzer and back LEDs for right and left)
 
@@ -86,7 +87,7 @@ Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 
 ---
 
-## 4th The wiring
+## 5th The wiring
 
 The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. It went through 2 iterations, and I'm sure I've got some connections wrong, but it's only to visualize things. Both of them are missing the movmet safty system, but it has the crucial electrical safety system on V2. And to prevent electrical fire, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout-out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect.
 
