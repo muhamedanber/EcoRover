@@ -227,3 +227,45 @@ Today I finished the last layer which is all the way down. now the latching syst
 
 ### Sep 20th, 2026
 Today was chaotic, it was my second day working on the electronics, first I made a power distributor for the ultrasonic modules, and it went great. Then I used the Arduino’s voltage regulator to step down the 12V to 5V for that power distributor. I tested it with the multimeter and the readings were super clean and I was super happy. Then I focused on my circuit diagram to see what to do next, holding the multimeter's probe in my left hand. I wasn't minding my hand and it drifted and touched the Arduino's 5V and gnd pins at once. I heard a faint click and smelt burnt toast, i unplugged immediately. When I plugged it back in it got super hot because it was fried and when I measured it it outputted 7V, which obviously fried the ATmega chip (I mean duh 🙄). I got hit with a sudden 20-30 minutes of depression, putting my hands over my head and regretting my life choices. Then I said alhamdulillah whatever happened happened. I texted the guy who reviewed my project for funding. He seemed chill and forwarded it to his team. Worst case scenario, I’ll have to use my own non-original Arduino Uno and figure out how to jam everything with fewer gpio pins. Best case (which inshallah most likely to happen) they give me $20 to buy a new Mega. To save time since StarDance ends on September 30, I moved on to the motors. I originally planned to use two H bridge drivers, but Gemini suggested using just one and wiring two motors in parallel per channel for differential steering. I did that but when I tested it, the motors didn't turn on. I realized I flipped the polarity by accident. I thought I fried the chip but when I swapped everything to the second driver, still nothing worked. I picked up the multimeter tested my main power distributor, and it showed zero. I checked the inline fuse I made yesterday, and it was burnt! The fuse blew when it sensed high amps from the reverse polarity, saving the 2 drivers Alhamdulillah! I changed the fuse and everything worked again. I'm really happy that my safety measures actually worked.
+
+
+---
+
+# Devlog #6: Unboxing, Sawdust Wars, and Smoking Arduinos
+
+*– From Sep 17th to Sep 20th 2026 –*
+
+The last four days have been an absolute fever dream.
+
+All 58 components finally arrived in one piece! Huge shoutout to the local sellers who threw in thank-you notes, a car freshener, and a random red **Mike Wazowski** figurine inside the box with the **Arduino Mega**. Unhinged, but cute.
+
+Naturally, right as everything landed, my body hit peak flu with brutal bone aches. But I pushed through to start assembly and prep the updated BOM. I had to cover a few out-of-pocket expenses for miscellaneous screws and hinges I forgot to calculate 🤦🏻. Also the only 3mm plywood I could source on Amazon that fit the budget came in ~30x50cm sheets, so I'm building this first physical prototype using the raw panels as is while keeping core frame dimensions intact.
+
+Later on, I decided to cut wood. *Pro-tip: foldable handsaws are dangerous.* I pressed the release button with my hand in the folding track. A quick flash of blood and a mini heart attack later, it stopped bleeding, thank God. Despite my clumsiness, I cut the middle layer outer shell, fridge frame, logic board mount, and lower latching mechanism.
+
+I blacked out from exhaustion right after and woke up to an immediate eviction notice from my grandma: *zero woodworking in the living room.* I relocated my entire workshop out to the balcony. It’s actually a great setup, plus I’ve made friends with the local balcony mouse who hangs out while I work.
+
+Despite the flu, I finished the chassis over 2 days, prepared doors/panels, and packed up the gear to move back inside.
+
+I started assembling electronics by wiring the main power rail. Within an hour, I completely scorched my soldering iron tip 🙃. Since tips are super cheap in Egypt, I’m replacing it out of pocket. My cousin set up a meeting with an electrician friend for a masterclass, but he wasn’t much help so I figured it out on my own. Health-wise, the flu is receding. Personal life is at peak chaos, but thank god we manage 🤡.
+
+Then came one of the most chaotic testing days yet. I built a `5V` power distributor for the `HC-SR04`sensors, routing power through the Arduino Mega’s internal regulator to get `5V`. Multimeter read a clean `5.0V`. Pure satisfaction.
+
+Then came the tragedy. While staring at my schematic to figure out the next step, I was holding the probe in my left hand. My hand drifted. The bare metal probe tip bridged the Arduino’s `5V` pin and `GND` pin simultaneously.
+
+> *Faint click. Scent of burnt toast.*
+
+I yanked the power cord instantly. Plugged back in, the board ran super hot. Multimeter showed the regulator blowing a raw `7V` straight into the `ATmega2560` chip. The brain of **EcoRover** was officially fried.
+
+I spent 20-30 minutes in full despair, but thank god, what happened happened. I reached out to the Stardance grant reviewer to explain the short circuit. Worst case: I’ll fall back to my personal non-original **Arduino Uno** and figure out a massive GPIO multiplexing hack to run all 8 sensors and drivers on fewer pins. Best case scenario: They approve a \$20 grant top-up for a replacement Mega so I can stay on schedule before the September 30 deadline.
+
+To keep momentum, I tested the drive motors. My CAD planned for 2 `L298N`s, but Gemini sayed using 1 driver and wiring motors in parallel for differential steering. I wired it, flipped the switch, and... total silence.
+
+I panicked, thinking I blew the `L298N` driver. Swapped to my backup still zero power.
+
+I probed the main power line: `0V`. Then I checked the inline safety fuse I wired earlier. The fuse wire was completely snapped! It blew the microsecond it sensed the high amp spike from my reverse polarity mistake, saving both motor drivers from getting destroyed.
+
+Seeing a safety feature you designed actually perform its job in real-time and save hardware from your own clumsiness is an unmatched feeling. I replaced the tiny car fuse, flipped the switch, and the drive motors whirred right to life!
+
+---
+
