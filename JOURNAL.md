@@ -180,6 +180,41 @@ I want to shout out to Jay, the hardware reviwer i've been contacting for a few 
 ### Sep 14th, 2026
 Today, the funding was approved!!!!!! I woke up to the best notification ever, baby. And in 3 hours the money evaporated lol 😂. But 2 bad things happened and then 1 good thing came and overwrote everything bad that happened alhamdulillah. Future Electronics (which was the supplier for the freaking Arduino and the LiPo battery) doesn't accept card payment, and RAM which was my second biggest supplier, doesn't accept foreign cards. So I had to go to uncle Amazon, which is slightly more expensive for a lot of things. That's when I googled "177 usd to egp" which came out to 9,158.42 EGP which is wayyy more than the 8 grand I wanted at first. For the first time ever, the EGP drowning against the USD worked in my favor. I didn't just buy everything, I was planning to cut off some things and I didn't, thank God! The card is now at $0.64 USD after I bought everything the project needed. Arrival is scheduled starting tomorrow and over the next few days, with a few items arriving every day. It's 43 orders and 58 individual pieces and tools. The shipping added up a little just a few dollars less than $5. and man the dopamine hit of shopping is still in me cuz lowkey This is the biggest Amazon order of my life. The challenges were two. first the LiPo battery needed to go cuz only future sell them, they're dangerous, hard to find in Egypt, and I couldn't find any balance chargers online. That gets us to problem number 2, since it's a card grant, I can't use local shops that don't take card payments. I'm recreating a BOM with the new things and i'll push it when it's ready, thanks again to Jay@Stardance hardwear <3
 
+---
+
+## Devlog #5: Funding Cleared, Amazon, and Currency stuff
+– From Sep 1st to Sep 15th 2026 –
+
+Today, the funding finally got approved!!!!!!
+
+I woke up to absolute green lights and the best notification ever. Naturally, within 3 hours the money completely evaporated lol 😂. But honestly, two major roadblocks popped up back to back, only for one good fate to come through and overwrite all the stress thank god.
+
+The first headache was payment processing. Future Electronics (who was supposed to be my primary supplier for the Arduino Mega and the main LiPo setup) doesn’t accept card payments. Then RAM Electronics whicj is my second biggest supplier, turned out not to accept foreign cards. Since the grant was issued as a virtual card, that meant zero local offline shops and zero local sites without online gateways.
+
+So I had to pivot entirely to uncle Amazon who is slightly more expensive for a lot of things here, so I immediately googled "177 usd to egp". The conversion hit 9,158.42 EGP (which was wayyy higher than the original 8 grand budget I calculated weeks ago) i thought i’d need to cut corners but thank god the extra grand payed for the price difference!
+
+For the first time in history the EGP dip against the USD actually worked in my favor. I didn’t just cover the costs I was fully prepared to start axing components from the build, but thank God, I didn’t have to cut a single thing. After checking out every single line item the project needed, the card balance is sitting clean at exactly $0.64 USD.
+
+The order log is wild its 43 individual orders totaling 58 pieces, modules, and physical tools. Overall shipping added up to just under 5 bucks. The sheer dopamine hit of smashing that checkout button is still running high because lowkey this is officially the biggest Amazon order of my life. Deliveries start rolling in tomorrow (aka today cuz i still havent slept and its 0450am) and will keep trickling in over the next few days.
+
+We also had to make two crucial hardware adjustments on the fly
+
+The LiPo Swap: The original LiPo battery plan had to go. Future was the only local vendor stocking the specific pack, they’re notoriously hazardous to ship/store, and finding proper balance chargers online locally was an absolute dead end. We’re swapping the primary power delivery to a safer, more accessible Lithium Ion setup.
+Card Only Sourcing: As mentioned, because this is an international card grant, any vendor without structured online payment processing had to be swapped out of the supply chain entirely.
+I’m currently in the middle of rebuilding and restructuring the entire BOM to reflect the exact Amazon components, specs, and updated unit prices. I’ll push the updated BOM file directly to the GitHub repo as soon as it’s finalized.
+
+Huge thanks again to Jay @ Stardance Hardware for helping clear the administrative loops and getting the grant active! <3
+
+Immediate Action Plan
+Unbox and inspect all 58 individual components upon arrival over the next few days
+Complete the updated BOM spreadsheet with exact Amazon item links and prices
+Push the updated BOM.md and CAD changes to the main GitHub repository
+Lay out the real-world bench assembly and start initial power testing
+
+---
+
+## 📌 Daily Log Updates
+
 ### Sep 17th, 2026
 All of the stuff arrived today alhamdullah with no problems, even some of the sellers were kind enough to send me a little gifts (A  Red Mike Wazowski which was weird but cute and what's weirder that it came with the Arduino??. but it's cute none the less. Also a lot of thank you cards and even a car freshener that came with the fues since it was a car fuse), but unfortunately I'm super sick lately and today is the peak of it (my bones aching so bad). but idk the excitement is too much so I guess I'm gonna start working on it today, and also push a new BOM like Jay@Stardance told me. I'll update this entry if my boneache allowed me to on anything physical today, also I had to spend some money out of pocket for some screws and hinges that I forgot to include in the BOM 😂🤦🏻. also I forgot to mention that the only 3mm plywood I found on Amazon that can work with me is ≈30×50cm. now the ideal size for the EcoRover is in the CAD subfolder and to work with these 30×50 panels I've 2 options. the first that we join every 2 together and then cut the remainings, or we just make this first prototype with what we have without changing the dimensions of the original EcoRover which is what I'm gonna do. that's it for today, byeee.
 - later into the day: well I decided to tough it out and work anyways. and I discovered something quite new, handsaws are dangerous kids, this one I have is foldable and it has a button to release it. I clicked it with my hand inside and u can imagine the rest, but thank God I'm okay. just a little cut that stopped bleeding after a few seconds, also I was clumsy with the saw at first but I managed to do the middle layer outer shell with a place for the fridge and the logic board and the latching system that will make it connect with the lower level. I'm so tired and I made a mess now, I'll clean it up and crash. see you tomorrow.
