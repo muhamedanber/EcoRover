@@ -269,3 +269,7 @@ Seeing a safety feature you designed actually perform its job in real-time and s
 
 ---
 
+## 📌 Daily Log Updates
+
+### Sep 21st, 2026
+Today thank god went with no fatealities (RIP Arduino), Jay wanted a proof video that its toast, i sent him one. I made the cooling setup with the peltier module, which judging by the almost 2nd degree burn on my hand it gets really hot really fast. and I've added the rocker switch with no soldring cuz i still didnt get a new tip but using the good old egyptian electritians which is tying the wire with the pin in a really weird but super strong way then using tape and heat shrinks. And also I've been working to minimize the GPIO pins needed for the project just in case they didn't fund me, like for examble today instead of a siginal pin, 3 5Vs, and 3 GNDs for the fans and the relay controlling the peltier, my 2mb ram of a brain realized since it will be set to HIGH from setup and always, why don't I use the relay to control all, which saved like 4 pins or smth.
