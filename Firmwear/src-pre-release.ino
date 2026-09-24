@@ -1,49 +1,68 @@
-const int trigPin[8] = {22, 24, 26, 28, 30, 32, 34, 36};
-const int echoPin[8] = {23, 25, 27, 29, 31, 33, 35, 37};
-int distance [8];
+// Com Trigger pin for all us
+#define TRIG_PIN 4
 
-#define ENA 11
-#define ENB 10
+// Echo pins for the 8 us
+const int echoPin[8] = {2, 3, 9, 10, A0, 13, 12, 11};
+int distance[8];
+
+// Motor driver direction control pins
 #define ML1 7
-#define ML2 6
-#define MR1 5
-#define MR2 4
-#define Cooling 8
-#define Fan 9
-#define Buzzer 13
-#define LEDL A0
-#define LEDR A1
+#define ML2 5
+#define MR1 6
+#define MR2 8
+
+// Indicator pins
+#define Buzzer A1
+#define LEDL   A2
+#define LEDR   A3
 
 void setup() {
-
   Serial.begin(9600);
-  for (int i = 0; i < 8; i++)
-  {
-    pinMode(trigPin[i], OUTPUT);
+
+  // Init common trigger pin
+  pinMode(TRIG_PIN, OUTPUT);
+  digitalWrite(TRIG_PIN, LOW);
+
+  // Init echo pins as inputs
+  for (int i = 0; i < 8; i++) {
     pinMode(echoPin[i], INPUT);
   }
-  pinMode(ENA, OUTPUT);
-  pinMode(ENB, OUTPUT);
+  // Init motor control pins
   pinMode(ML1, OUTPUT);
   pinMode(ML2, OUTPUT);
   pinMode(MR1, OUTPUT);
   pinMode(MR2, OUTPUT);
-  pinMode(Cooling, OUTPUT);
-  pinMode(Fan, OUTPUT);
+  // Init alert and signal pins
   pinMode(Buzzer, OUTPUT);
   pinMode(LEDL, OUTPUT);
   pinMode(LEDR, OUTPUT);
-  digitalWrite(Cooling, HIGH);
-  digitalWrite(Fan, HIGH);
+  // Startup udio alert check
+  digitalWrite(LEDL, HIGH);
+  digitalWrite(LEDR, HIGH);
   digitalWrite(Buzzer, HIGH); 
-  delay(1000);          
+  delay(300);          
   digitalWrite(Buzzer, LOW);
   digitalWrite(LEDL, LOW);
   digitalWrite(LEDR, LOW);
 }
 
-void moveForward(int leftSpeed, int rightSpeed) {
+// Function to measure distance for a specific sensor index
+int readDistance(int index) {
+  // Trigger a 10us HIGH pulse to start measurement
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
 
+  // Read pulse width on target echo pin with a 25ms timeout (~400cm max range)
+  long duration = pulseIn(echoPin[index], HIGH, 25000); 
+  
+  if (duration == 0) return 400; // Return max range if no echo received
+  return duration * 0.034 / 2;    // Calculate distance in cm
+}
+
+void moveForward() {
   digitalWrite(LEDL, LOW);
   digitalWrite(LEDR, LOW);
   digitalWrite(Buzzer, LOW); 
@@ -51,13 +70,9 @@ void moveForward(int leftSpeed, int rightSpeed) {
   digitalWrite(ML2, LOW);
   digitalWrite(MR1, HIGH);
   digitalWrite(MR2, LOW);
-  analogWrite(ENA, leftSpeed);
-  analogWrite(ENB, rightSpeed);
-
 }
 
-void moveBackward(int leftSpeed, int rightSpeed) {
-
+void moveBackward() {
   digitalWrite(LEDL, HIGH);
   digitalWrite(LEDR, HIGH);
   digitalWrite(Buzzer, HIGH); 
@@ -65,12 +80,9 @@ void moveBackward(int leftSpeed, int rightSpeed) {
   digitalWrite(ML2, HIGH);
   digitalWrite(MR1, LOW);
   digitalWrite(MR2, HIGH);
-  analogWrite(ENA, leftSpeed);
-  analogWrite(ENB, rightSpeed);
-
 }
 
-void spinLeft(int speed) {
+void spinLeft() {
   digitalWrite(LEDL, HIGH);
   digitalWrite(LEDR, LOW);
   digitalWrite(Buzzer, LOW); 
@@ -78,11 +90,9 @@ void spinLeft(int speed) {
   digitalWrite(ML2, HIGH);
   digitalWrite(MR1, HIGH);
   digitalWrite(MR2, LOW);
-  analogWrite(ENA, speed);
-  analogWrite(ENB, speed);
 }
 
-void spinRight(int speed) {
+void spinRight() {
   digitalWrite(LEDL, LOW);
   digitalWrite(LEDR, HIGH);
   digitalWrite(Buzzer, LOW); 
@@ -90,55 +100,42 @@ void spinRight(int speed) {
   digitalWrite(ML2, LOW);
   digitalWrite(MR1, LOW);
   digitalWrite(MR2, HIGH);
-  analogWrite(ENA, speed);
-  analogWrite(ENB, speed);
 }
 
 void Stop() {
-  analogWrite(ENA, 0);
-  analogWrite(ENB, 0);
+  digitalWrite(ML1, LOW);
+  digitalWrite(ML2, LOW);
+  digitalWrite(MR1, LOW);
+  digitalWrite(MR2, LOW);
   digitalWrite(LEDL, LOW);
   digitalWrite(LEDR, LOW);
   digitalWrite(Buzzer, LOW);
 }
 
-int readDistance(int index)
-{
-  digitalWrite(trigPin[index], LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin[index], HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin[index], LOW);
-
-  long duration = pulseIn(echoPin[index], HIGH, 30000); 
-  if (duration == 0) return 400; 
-  return duration * 0.034 / 2;
-}
-
 void loop() {
-   for (int f = 0; f < 8; f++) {
+  // Read distances sequentially for all 8 sensors
+  for (int f = 0; f < 8; f++) {
     distance[f] = readDistance(f);
-    delay(10);
+    delay(10); // Short delay to reduce ultrasonic cross-talk interference
   }
+
+  // Check minimum obstacle distance in front (sensors 0 and 1)
   int frontDistance = min(distance[0], distance[1]);
-  if (frontDistance >= 20)
-  {
-    moveForward(185, 185);
-  }
-  else
-  {
+
+  if (frontDistance >= 20) {
+    moveForward();
+  } 
+  else {
     Stop();
     delay(200);
-    moveBackward(150, 150);
+    moveBackward();
     delay(500);
 
-    if (distance[6] > distance[2])
-    {
-      spinLeft(150);
-    }
-    else 
-    {
-      spinRight(150);
+    // Turn toward the side with more clearance
+    if (distance[6] > distance[2]) {
+      spinLeft();
+    } else {
+      spinRight();
     }
     delay(600);
   }
