@@ -87,10 +87,10 @@ Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 
 ## 5th The wiring
 
-The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. It went through 2 iterations, and I'm sure I've got some connections wrong, but it's only to visualize things. Both of them are missing the movmet safty system, but it has the crucial electrical safety system on V2. And to prevent electrical fire, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout-out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect.
+The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. It went through 2 iterations, and I'm sure I've got some connections wrong, but it's only to visualize things. Both of them are missing the movmet safty system, but it has the crucial electrical safety system on V2. And to prevent electrical fire, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout-out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect. (Update: the boaed is changed to an UNO, check the journal to know why 🍞🍳) 
 
 
-| EcoRover V2 | EcoRover V1 |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> |
+| EcoRover V2 | EcoRover V1 | EcoRover V3 |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> | <img src="<img src="https://github.com/user-attachments/assets/fe50fa4b-d67e-4b95-9583-c686f8d6eb8b" width="400" alt="EcoRover_v3" /> |
 
