@@ -92,5 +92,5 @@ The wiring was done in order to create a BOM, i used fritzing even though i'm du
 
 | EcoRover V2 | EcoRover V1 | EcoRover V3 |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> | <img src="<img src="https://github.com/user-attachments/assets/fe50fa4b-d67e-4b95-9583-c686f8d6eb8b" width="400" alt="EcoRover_v3" /> |
+| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> | <img src="https://github.com/user-attachments/assets/fe50fa4b-d67e-4b95-9583-c686f8d6eb8b" width="400" alt="EcoRover_v3" /> |
 
