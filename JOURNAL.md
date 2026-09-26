@@ -279,3 +279,5 @@ I just got off the phone with my legendary of a barber Ahmed, he told me today i
 
 ### Sep 23rd, 2026
 I still haven't went to the barber, but I worked a TON, I had a goal of finishing the whole thing today, but it didn't work, but the most noticeable thing that I got scammed. u see the 12v fans were not working at all, i found out after I mounted them, I tried to trouble shoot it in its place but I had to take it off and test them individually, both no luck, which I swear I didn't fry, If I did I would've been truthful but this is already dead before I touched it, tbh the listing was sketchy, it's from a seller not Amazon and it was suspiciously cheap. now I've 2 options, call Amazon and return it (we're in Egypt so it doesn't really work like it sounds). or just eat it and just place it in it's place to demonstrate, which what I'm gonna do, while also keeping the peltier module off even though it does work but I'm not wishing to get another second degree burn. so keep it off.
+
+### Sep 24th, 2026
