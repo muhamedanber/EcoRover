@@ -291,3 +291,6 @@ today a lot of things happend, the wheels are super fast I have to make the moto
 
 ### Sep 29th, 2026
 First day of college got me whipped i crashed all day so i didnt work + RAM was closed, second day i was wayy t exhasted to go to RAM so i went straight home. As for today i finally got back to work through pain, i've finised the HC-SR04s mounting and wiring, also remember when i said i'm good at cable managment? well.. throw that against the wall its a catstrophy.
+
+### Sep 30th-is and Oct 1st, 2026
+I really don't know what I did today but my sleep is fudged, I did some work on the HC-SR04s wiring, mounted the Arduino, mounted the H bridge and wired it up and installed the battery but it was powering up the Arduino just fine but there was no 5V output, I had a lecture and I needed to go cuz we gotta keep that gpa up. I'll continue working at night or tomorrow 6am max.
