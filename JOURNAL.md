@@ -294,3 +294,6 @@ First day of college got me whipped i crashed all day so i didnt work + RAM was 
 
 ### Sep 30th-is and Oct 1st, 2026
 I really don't know what I did today but my sleep is fudged, I did some work on the HC-SR04s wiring, mounted the Arduino, mounted the H bridge and wired it up and installed the battery but it was powering up the Arduino just fine but there was no 5V output, I had a lecture and I needed to go cuz we gotta keep that gpa up. I'll continue working at night or tomorrow 6am max.
+
+### Oct 6th, 2026
+heyy long time no talk. college really chew me and about to spit me. everyday I come back home dead on my feet, with a headache and boneache, I study a little bit and then sleep to the next day to repeat the cycle. I'm sorry for this sudden stop. but tomorrow inshallah is the last day of it this week and I'll be able to finish the project tomorrow or the day after maximum. for now I'll go cuz I have chem lab, love u <3.
