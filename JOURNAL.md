@@ -297,3 +297,6 @@ I really don't know what I did today but my sleep is fudged, I did some work on 
 
 ### Oct 6th, 2026
 heyy long time no talk. college really chew me and about to spit me. everyday I come back home dead on my feet, with a headache and boneache, I study a little bit and then sleep to the next day to repeat the cycle. I'm sorry for this sudden stop. but tomorrow inshallah is the last day of it this week and I'll be able to finish the project tomorrow or the day after maximum. for now I'll go cuz I have chem lab, love u <3.
+
+### Oct 11th, 2026
+I've did some work a few days ago that can't be even called work. I'm super tired and exhausted and I'm really trying to find time for the rover but I can't. today I'm super sick but I guess I can work on it real quick, just a thought. it's officially ready it just needs to be put together (it's already together but I mean every level needs to be put on the one before it and then connect the wires. I'll maybe do this now. I'm still worried that the battery is so heavy but inshallah it won't be that much of a problem.
