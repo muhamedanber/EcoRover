@@ -298,5 +298,14 @@ I really don't know what I did today but my sleep is fudged, I did some work on 
 ### Oct 6th, 2026
 heyy long time no talk. college really chew me and about to spit me. everyday I come back home dead on my feet, with a headache and boneache, I study a little bit and then sleep to the next day to repeat the cycle. I'm sorry for this sudden stop. but tomorrow inshallah is the last day of it this week and I'll be able to finish the project tomorrow or the day after maximum. for now I'll go cuz I have chem lab, love u <3.
 
-### Oct 11th, 2026
-I've did some work a few days ago that can't be even called work. I'm super tired and exhausted and I'm really trying to find time for the rover but I can't. today I'm super sick but I guess I can work on it real quick, just a thought. it's officially ready it just needs to be put together (it's already together but I mean every level needs to be put on the one before it and then connect the wires. I'll maybe do this now. I'm still worried that the battery is so heavy but inshallah it won't be that much of a problem.
+### Oct 10th, 2026
+A few days ago I barely managed to get anything done. I'm completely exhausted and struggling to find time for the rover between everything else (the college is pilling up fast and i'm already 4 lectures behind and have a quiz tomorow). I'm feeling super sick today, but I was thinking of squeezing in a quick session anyway. Technically the rover is officially ready and just needs final assembly. Everything is built but each level needs to be stacked, mounted onto the one below it and wired up. I might try doing that now but I'm still worried about the battery's weight, but Inshallah it won't cause too much trouble.
+
+Later:
+I pushed through and worked on it anyway, but I hit a massive dead end. The frame snaps together fine and the wiring is done but the entire build is super wobbly, and the battery housing keeps falling off from it's wight. The core issue is the wobbling itself, the footprint is simply too small for the height and total weight, mostly due to the heavy battery. If it were lighter we might have been able to get away with a temporary fix. But with this battery there's just no way without too much of overengeneering.
+
+Fixing it properly would mean rebuilding the entire chassis with a wider footprint, or mounting the wheels to the second tier and ditching the third altogether. Either way we'd still need a lighter battery, and both options are way too much work for me right now.
+
+I ended up sending this message in Slack and directly to Jay (the hardware guy):
+"A bit of an odd question: I'm building a massive rover, got the funding, and finished most of the build. However, college just started and it's eating up almost all my time. I’ve been trying to balance both, but I’ve hit a major roadblock. The project is around 97% complete, but fixing this final issue would take energy and time I honestly don't have right now. Is it acceptable to ship the project in its current state?"
+Now we wait and see what happens. I've a lecture in 45 mins and i look like a bio hazard, byeeeee.
