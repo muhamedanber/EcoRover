@@ -309,3 +309,6 @@ Fixing it properly would mean rebuilding the entire chassis with a wider footpri
 I ended up sending this message in Slack and directly to Jay (the hardware guy):
 "A bit of an odd question: I'm building a massive rover, got the funding, and finished most of the build. However, college just started and it's eating up almost all my time. I’ve been trying to balance both, but I’ve hit a major roadblock. The project is around 97% complete, but fixing this final issue would take energy and time I honestly don't have right now. Is it acceptable to ship the project in its current state?"
 Now we wait and see what happens. I've a lecture in 45 mins and i look like a bio hazard, byeeeee.
+
+### Oct 18th, 2026
+sorry it's been a while since I last wrote here, life got somewhat rough + college + some other personal problems but dw about that, now Jay replied to me and said as long as it's functional we can ship the project which I take this as a yes tbh, I'll shoot the video today and I hope I manage to edit the video in the next couple of days. that's it for today, byeeee
