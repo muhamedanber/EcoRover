@@ -20,7 +20,7 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 > **Note on AI Usage:**  about the usage of AI: The AI is being used in this project to generate ideas, explain and debug. However, it's not used to create parts of the project that require creativity, design and construction. Also, the AI is not used more than 10% of the total project. Which counts as MADE BY HUMAN.
 
-> **The currnt state: Working on the final assembly. View [`JOURNAL.md`](./JOURNAL.md)**
+> **The currnt state: Filming the video and working on the shipping. View [`JOURNAL.md`](./JOURNAL.md)**
 
 ---
 
