@@ -312,3 +312,19 @@ Now we wait and see what happens. I've a lecture in 45 mins and i look like a bi
 
 ### Oct 18th, 2026
 sorry it's been a while since I last wrote here, life got somewhat rough + college + some other personal problems but dw about that, now Jay replied to me and said as long as it's functional we can ship the project which I take this as a yes tbh, I'll shoot the video today and I hope I manage to edit the video in the next couple of days. that's it for today, byeeee.  --later: some drama happened now that left me feeling a little shaky and idk but it's almost certain I'm not filming anything now (I wish this isn't the case but ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯) I'll update you if there is any but for today I think there won't be. and it's really frustrating that the project is done almost before October began and I've not shipped till today but it's out of my hands my day is filled to the rim
+
+### Oct 22nd, 2026
+WAIT!
+...wait...!
+
+do you hear that?
+
+*there is a distant screaming in the background*
+
+what - what's that?
+*AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*
+
+I'VE FINALLY FINISHED FILMING THE VIDEOOOOOOOOOOO!!!!!!!
+FINALLY, LIKE FREAKING FINALLY
+thhank God today i decided to film the video after college gave me a much needed breather. ive filmed it and now we can say the EcoRover is finally done Alhamdulillah! I really can't believe this happened. I'll sleep cuz I'm staying up late and the first thing I'm doing tomorrow is editing the video and finally hitting ship OMGGGG. Also a bit irrelevant but I've been chosen to compete at The Ideal Student competition@the Faculty of Science, Cairo University. Out of 12,000 students me and 20 others were chosen and it hasn't even been even a month since I got enrolled in college yet so I'm really proud. Thank God for what he made me, gave me, and constently gives me I'm really grateful, and I am nothing without Him. byeeeeeeeee.
+
