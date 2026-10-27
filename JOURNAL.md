@@ -336,3 +336,73 @@ Today I really couldn't work on the video because -i still can't believe what I'
 
 ### Oct 25th to 27th, 2026
 everything that happened in the last few days have been so quickly that I really when I tried to write it down on the journal I couldn't exactly know what happened in which day so here's everything that happened since the last journal entry thank God I finished eating the view it's not looking that good it's okay it's me but for me it's it's fine I to be honest I wouldn't even try to edit it more have finished the final the final upload to laps and now I'm gonna write the final div log and hit submit to the project and that's the end of the equal Rover thanks a lot for being with me but hold up everyone here with me in the journal host still reading actually gets a little more than what everyone else got because I'm gonna write journal entries for every update that happens related to the project since the ship all the way to anything that might have it in the future now I'm gonna hit ship and I will let you guys updated and maybe this entry looks messed up or not super gremly okay because I'm writing it using speech to text.
+
+
+---
+
+# Devlog #8: The End?
+– From Sep 29th to Oct 27th 2026 –
+
+MAN what a month. 
+
+If I had to sum up October in a single phrase, it would be "AHHHHHHHHHHHHHHHHHHHHHHHHH" but tbh this final stretch of EcoRover has been abslute cinema. 
+
+---
+
+### Chapter one: The Final Hustle
+Right after the last log i finally got back to work through the usual physical exhaustion. I managed to mount and wire all 8 HC-SR04s. Also remember in earlier devlogs when I bragged about my cable management? Yeah... throw that statement against the wall. It turned into an absolute disaster in the middle tier, but hey it connected
+
+I mounted the Uno, hooked up the H bridge and wired the power lines. Power was running straight to the uno, but the 5V rail decided to ghost me. I had to pause cuz college lectures were piling up fast and gpa protection takes top priority 🤡.
+
+---
+
+### Chapter two: ANYONE HELP! CU Eats Me Alive. 
+Coming back home dead on my feet every single day with brutal headaches, bone aches, and a mountain of chemistry labs meant the progress hit a wall. By early October I was sitting four lectures behind with quizzes looming over my head.
+
+By Oct 10th, the rover was *technically* 97% complete. All the individual components were wired and functional, but they needed to be stacked. 
+
+When I finally pushed through the sickness to assemble it, I hit a dead end **The Wobble.** 
+
+The chassis footprint was simply too narrow for the height and total weight cuz i'ven't followed the original dimensions in the CAD file i made and just used the size of plywood i got off of amazon. The heavy lithium battery pack in the middle tier was causing the entire frame to sway, and the housing kept snapping under its own weight. To fix it properly, I would’ve needed to either:
+1. Rebuild the entire frame with a wider footprint or
+2. Ditch the bottom tier completely and mount the drive wheels straight to the second tier.
+
+Both options required a lighter battery and time I physically didn't have. So looking like a total biohazard 45 minutes before a lecture I shot a message straight to Jay on Slack: 
+
+> *"The project is around 97% complete, but fixing this issue would take energy and time I honestly don't have right now. Is it okay to ship in its current state?"*
+
+A few days later, Jay replied that as long as it's functional we are good to ship! Massive sigh of relief.
+
+---
+
+### Chapter three:
+While hardware was on pause my personal life went into overdrive in the best way possible.
+Out of 12000 students at the Faculty of Science@CU, I was nominated as one of 21 candidates for The Ideal Student Competition less than a month after enrolling! 🥳
+
+During the interview, I had a long talk with Professor Maha Al-Khazindar (Vice Dean) and three other decorated professors. We talked about everything I’ve done over the last 6 years. They liked my background so much that Dr. Khazindar personally invited me to join the official university board to welcome an incoming high-level delegation from **KoreaTech University**!!!!
+
+Standing alongside the Dean and Vice Dean to welcome an international delegation as a freshman was completely surreal. Alhamdulillah for everything He constantly grants me.
+
+---
+
+### Chapter four: This is the END (Adele singing)
+On Oct 22nd, after college gave me a much needed breather I heard a distant screaming in the background...
+
+**AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!**
+
+I FINALLY FINISHED FILMING THE VIDEO! 🎉 
+
+It might not be hollywood quality but it's raw, real, and captures the entire chaotic journey of bringing EcoRover to life.
+
+With the repo updated, video uploaded, and the final submit button smashed... **EcoRover is SHIPPED!** 🥳🎉
+
+---
+
+### 💖 What's Next?
+A massive thank u to everyone who followed this chaotic journey. Thanks stardance for giving me this crazyyy learning experince that ill remember till i die <3
+
+For everyone reading the journal on the GitHub I love u. 
+
+Until the next build, thank God for everything, and byeeeeee! 🚀✨
+
+---
