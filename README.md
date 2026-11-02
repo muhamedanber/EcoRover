@@ -20,9 +20,11 @@ A motorized recycling bin targeting food courts with a built-in fridge to store 
 
 > **Note on AI Usage:**  about the usage of AI: The AI is being used in this project to generate ideas, explain and debug. However, it's not used to create parts of the project that require creativity, design and construction. Also, the AI is not used more than 10% of the total project. Which counts as MADE BY HUMAN.
 
-> **The currnt state: Finished the video and hit ship. View [`JOURNAL.md`](./JOURNAL.md)**
 > **Watch the final video on [`YouTube`](https://www.youtube.com/watch?v=CcO8l59sFP0)**
 
+> **Important journal entry - Nov 2nd, 2026* 
+Today I just watched Stardance's finale, and it low-key made me so close to crying. I've never said that before but, believe it or not I stumbled across Stardance in one of the roughest times of my life, and it was one of the biggest things that pulled me through. I can't describe at all how much this experience meant to me. It was the most enjoyable thing I've done, the closest to my heart so far, the one I learned the most from, and the one I worked the hardest at and loved the most.
+So really thanks Stardance for this. It was a great experience stardancing with you, but like you said in your own finale video, "sooner or later, everything will come to an end." Whether you're doing something next year or not, I unfortunately can't be with you because I'm going to be 19 by then. But thank you for everything so far. View [`JOURNAL.md`](./JOURNAL.md)**
 
 ---
 
