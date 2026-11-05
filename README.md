@@ -42,8 +42,7 @@ It’s a fancy trashcan after all XD, it has 5 wheels and sensors, and it’s go
 
 ## 2nd Features
 
-Here's everything packed into EcoRover to make it actually work out in the wild (
-aka food courts):
+Here's everything packed into EcoRover to make it actually work out in the wild (aka food courts):
 
 * **Built-in Leftover Fridge:** Keeps uncontaminated leftover food fresh and chilled right inside the rover, giving anyone who needs a meal direct access to it without having to ask anyone or feel awkward.
 * **4-Way Trash Separator:** Built into the top tier so people can sort recyclables and waste on the fly instead of tossing everything into one pile.
@@ -61,21 +60,22 @@ The project is made of 3 main parts with a footprint of 40x30cm and moddeled int
 
 * **Bottom tier:** 10cm for the battery, motors and H bridges, and counterweights if needed.
 
-| Bottom Figure Render | Bot Bottom Figure | Bottom Body Sketch |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/86312606-fed2-4de1-a743-ca8839195b5a" width="300" alt="Bottom Figure Render" /> | <img src="https://github.com/user-attachments/assets/f5253936-75da-44f9-bc12-4cf29bc2ff38" width="300" alt="Bot Body figure V1" /> | <img width="300" alt="Bot Body sketch" src="https://github.com/user-attachments/assets/bfe46d74-bfd9-42ef-a2cd-492f460f9620" />
+| Bottom Figure Render | Bot Bottom Figure | Bottom Body Sketch | Bottom irl |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/86312606-fed2-4de1-a743-ca8839195b5a" width="250" alt="Bottom Figure Render" /> | <img src="https://github.com/user-attachments/assets/f5253936-75da-44f9-bc12-4cf29bc2ff38" width="250" alt="Bot Body figure V1" /> | <img width="250" alt="Bot Body sketch" src="https://github.com/user-attachments/assets/bfe46d74-bfd9-42ef-a2cd-492f460f9620" />  | <img width="250" alt=" Bottom side irl" src="https://github.com/user-attachments/assets/c08288e0-a0ab-4371-ab7a-e26a46d372c5" />
+ />
 
 * **Middle tier:** The fridge and logic board layer, 45cm.
 
-| Mid Body Figure V2 | Mid Figure Render | Mid Body Sketch |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/47d97184-6cb3-4999-a200-4c366c480cb9" width="300" alt="Mid Body figure V2" /> | <img src="https://github.com/user-attachments/assets/0881734b-e47f-4031-ba30-12a2c3542dbb" width="300" alt="Mid Figure Render" /> | <img src="https://github.com/user-attachments/assets/424f48ab-c75a-46df-b86d-adc7fe3a61db" width="300" alt="Mid Body sketch" /> |
+| Mid Body Figure V2 | Mid Figure Render | Mid Body Sketch | Real-Life Photos |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/47d97184-6cb3-4999-a200-4c366c480cb9" width="200" alt="Mid Body figure V2" /> | <img src="https://github.com/user-attachments/assets/0881734b-e47f-4031-ba30-12a2c3542dbb" width="200" alt="Mid Figure Render" /> | <img src="https://github.com/user-attachments/assets/424f48ab-c75a-46df-b86d-adc7fe3a61db" width="200" alt="Mid Body sketch" /> | <img src="https://github.com/user-attachments/assets/3e71c1d8-f121-4e85-a7f1-9bbb48c52145" width="100" alt="Mid irl 1" /> <img src="https://github.com/user-attachments/assets/06fcaa45-dc9f-4755-9f6f-c943b3f5595f" width="100" alt="mid irl 2" /> <img src="https://github.com/user-attachments/assets/54b5dfa2-f0c7-420a-903d-503877b084a7" width="100" alt="mid irl 3" /> <img src="https://github.com/user-attachments/assets/a6641e1e-ebec-4af9-ace7-ec3461770ce4" width="100" alt="mid irl 4" /> |
 
-* **Top tier:** The trash seprator compartment, 35cm.
-  
-| Top Figure V2 | Top Figure Render | Top Body Sketch |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/90f8e999-ff48-456d-8cf1-5797f06bc130" width="300" alt="Top figure V2" /> | <img src="https://github.com/user-attachments/assets/3ab02817-7d88-4b35-ae78-63ba3451b6fb" width="300" alt="Top Figure Render" /> | <img src="https://github.com/user-attachments/assets/aad35eec-fb17-4466-80e4-9a5c63993d15" width="300" alt="Top Body sketch" /> |
+* **Top tier:** The trash separator compartment, 35cm.
+
+| Top Figure V2 | Top Figure Render | Top Body Sketch | Real-Life Photos |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/90f8e999-ff48-456d-8cf1-5797f06bc130" width="200" alt="Top figure V2" /> | <img src="https://github.com/user-attachments/assets/3ab02817-7d88-4b35-ae78-63ba3451b6fb" width="200" alt="Top Figure Render" /> | <img src="https://github.com/user-attachments/assets/aad35eec-fb17-4466-80e4-9a5c63993d15" width="200" alt="Top Body sketch" /> | <img src="https://github.com/user-attachments/assets/5b53bd55-bec3-43e9-ae50-6e81685435a9" width="200" alt="top irl" /> |
 
 When I first started, Gemini suggested a 40x30cm footprint and 60cm height. I just started drawing it and didn’t notice it was way too short, making the trash compartment totally inaccessible and the fridge way too tiny. I didn’t notice till I was already cadding. Since 30x40cm is a good footprint, I decided to keep that, but when I pulled out a physical tape measure and imagined the project, I found myself bending over just to reach that height! So, I pushed it up to 90cm, which feels much better. Gemini assumed I would use heavy materials, but I’m going lightweight, so Inshallah it won’t tip over.
 
@@ -94,7 +94,6 @@ Check it out at [`src-pre-release.ino`](./Firmwear/src-pre-release.ino)
 The wiring was done in order to create a BOM, i used fritzing even though i'm dummy at it. It went through 2 iterations, and I'm sure I've got some connections wrong, but it's only to visualize things. Both of them are missing the movmet safty system, but it has the crucial electrical safety system on V2. And to prevent electrical fire, I reached out to a fellow engineer, Mustafa Qusit (a mechatronics engineer and currently a B1 aircraft maintenance engineer at EgyptAir), to get his feedback on my circuit setup. Huge shout-out to him! He was super supportive, though he made it clear he won’t give me direct shortcuts on the electronics. He wants me to learn through trial and error, but he promised he’d step in and tell me if anything I wired is genuinely dangerous or going to go kaboom. If it’s safe, he’s letting me figure out the best way on my own, which I really respect. (Update: the boaed is changed to an UNO, check the journal to know why 🍞🍳) 
 
 
-| EcoRover V2 | EcoRover V1 | EcoRover V3 |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="400" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="400" alt="EcoRover_v1" /> | <img src="https://github.com/user-attachments/assets/fe50fa4b-d67e-4b95-9583-c686f8d6eb8b" width="400" alt="EcoRover_v3" /> |
-
+| EcoRover V1 | EcoRover V2 | EcoRover V3 | Real-Life Photos |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/516a17fa-11da-4e39-b4e4-9eca1eea4470" width="300" alt="EcoRover_v1" /> | <img src="https://github.com/user-attachments/assets/12dd3706-b26c-4d75-8f59-91537a92e7d8" width="300" alt="EcoRover_v2" /> | <img src="https://github.com/user-attachments/assets/fe50fa4b-d67e-4b95-9583-c686f8d6eb8b" width="300" alt="EcoRover_v3" /> | <img src="https://github.com/user-attachments/assets/a2c83b43-910e-4d5b-a207-5cfde30f47d6" width="130" alt="EcoRover IRL Build 1" /> <br><br> <img src="https://github.com/user-attachments/assets/d55e0548-b073-4890-a63b-076c8f0901ff" width="130" alt="EcoRover IRL Build 2" /> |
