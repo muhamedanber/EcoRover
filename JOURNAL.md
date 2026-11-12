@@ -412,3 +412,6 @@ Until the next build, thank God for everything, and byeeeeee! 🚀✨
 ### Nov 2nd, 2026
 Today I just watched Stardance's finale, and it low-key made me so close to crying. I've never said that before but, believe it or not I stumbled across Stardance in one of the roughest times of my life, and it was one of the biggest things that pulled me through. I can't describe at all how much this experience meant to me. It was the most enjoyable thing I've done, the closest to my heart so far, the one I learned the most from, and the one I worked the hardest at and loved the most.
 So really thanks Stardance for this. It was a great experience stardancing with you, but like you said in your own finale video, "sooner or later, everything will come to an end." Whether you're doing something next year or not, I unfortunately can't be with you because I'm going to be 19 by then. But thank you for everything so far.
+
+### Nov 12th, 2026
+today I woke up to the best notification ever, the project got accepted!!! they gave me 170ish stardust which I chose to get a pinetime watch in exchange and a LOT of sticker and the digital certificate. I'm super happy but I'm writing this literally in front of the exam hall so gotta go.
