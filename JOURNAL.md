@@ -415,3 +415,6 @@ So really thanks Stardance for this. It was a great experience stardancing with 
 
 ### Nov 12th, 2026
 today I woke up to the best notification ever, the project got accepted!!! they gave me 170ish stardust which I chose to get a pinetime watch in exchange and a LOT of sticker and the digital certificate. I'm super happy but I'm writing this literally in front of the exam hall so gotta go.
+
+### Nov 19th, 2026
+today I was cleaning up some mess and I found a pink lemonade can in it 🤡. those who watched the video will understand lmfao
